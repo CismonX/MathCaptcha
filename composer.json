@@ -4,8 +4,8 @@
   "description": "A simple math captcha generator based on Maxima.",
   "license": "MIT",
   "require": {
+    "cismonx/acast": "^1.2",
     "cismonx/captcha-queue": "dev-master",
-    "cismonx/proc-connection": "^0.1",
     "gregwar/tex2png": "dev-master"
   },
   "autoload": {
