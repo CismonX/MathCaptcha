@@ -56,11 +56,12 @@ class Math extends CaptchaInterface {
      * Add a rule to the generator.
      *
      * @param string $name
+     * @param string $namespace
      */
-    function add(string $name) {
+    function add(string $name, string $namespace = '\\CismonX\\CaptchaQueue\\Rules') {
         if (isset($this->_formulaList[$name]))
             Console::warning("Overwriting formula \"$name\".");
-        $class_name = 'captcha\\'.$name;
+        $class_name = $namespace . '\\' . $name;
         if (!class_exists($class_name)) {
             Console::warning("Invalid formula \"$name\".");
             return;

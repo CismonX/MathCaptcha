@@ -8,7 +8,8 @@
     "cismonx/captcha-queue": "^0.1",
     "cismonx/tex2png": "^0.1",
     "cismonx/proc-connection": "^0.1",
-    "ext-pcre" : "*"
+    "ext-pcre" : "*",
+    "ext-imagick": "*"
   },
   "autoload": {
     "psr-4": {
