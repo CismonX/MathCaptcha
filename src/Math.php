@@ -11,7 +11,7 @@ use Gregwar\Tex2png\Tex2png;
  * Class Math
  * @package CismonX\CaptchaQueue
  */
-class Math {
+class Math extends CaptchaInterface {
     /**
      * Status list
      */
@@ -44,12 +44,12 @@ class Math {
     protected $_formula;
     /**
      * Currently generated captcha image ID.
-     * @var
+     * @var string
      */
     protected $_id;
     /**
      * Current rule.
-     * @var
+     * @var MathRuleInterface
      */
     protected $_current;
     /**
