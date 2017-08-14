@@ -5,8 +5,8 @@
   "license": "MIT",
   "require": {
     "cismonx/acast": "^1.2",
-    "cismonx/captcha-queue": "dev-master",
-    "gregwar/tex2png": "dev-master"
+    "cismonx/captcha-queue": "^0.1",
+    "cismonx/tex2png": "^0.1"
   },
   "autoload": {
     "psr-4": {
